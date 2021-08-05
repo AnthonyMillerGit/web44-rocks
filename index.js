@@ -13,7 +13,7 @@ server.use(helmet())
 
 server.get('/', (req, res) => {
     res.send(`
-    <h1>Web 44 is awesome</h1>
+    <h1>Server is live</h1>
     `)
 })
 
